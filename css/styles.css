@@ -1,25 +1,35 @@
 body {
     font-family: 'Roboto', sans-serif;
+    color: #434455;
+    background-color: #ffffff;
 }
-
-.srvs {
+:root {
+    --navyblue: #2e2f42;
+    --cloud: #f4f4fd;
+    --iris: #4d5ae5;
+    --slate: #434455;
+    --white: #fff;
+    --ocean: #404bbf;
+}
+.link {
     text-decoration: none;
     list-style-type: none;
 }
 
 /*-----------HEADER-----------*/
 
-.logo1 {
+.logo-web {
     color: var(--iris, #4d5ae5);
-    font-family: Raleway;
+    font-family: Raleway, sans-serif;
     font-size: 18px;
     font-style: normal;
     font-weight: 800;
-    line-height: 21px; /* 116.667% */
+    line-height: 1.17;
     letter-spacing: 0.54px;
     text-transform: uppercase;
+    text-decoration: none;
 }
-.logo2 {
+.logo-studio {
     color: var(--navyblue, #2e2f42);
     font-family: Raleway;
     font-size: 18px;
@@ -28,8 +38,9 @@ body {
     line-height: 21px; /* 116.667% */
     letter-spacing: 0.54px;
     text-transform: uppercase;
+    text-decoration: none;
 }
-.footer-logo2 {
+.footer-logo-2 {
     color: var(--cloud, #f4f4fd);
     font-family: Raleway;
     font-size: 18px;
@@ -38,10 +49,11 @@ body {
     line-height: 21px; /* 116.667% */
     letter-spacing: 0.54px;
     text-transform: uppercase;
+    text-decoration: none;
 }
 
 .nav-list {
-    text-decoration: none;
+    list-style: none;
 }
 .nav-item {
     color: var(--navyblue, #2e2f42);
@@ -49,16 +61,30 @@ body {
     font-size: 16px;
     font-style: normal;
     font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+}
+.nav-item:hover {
+    color: var(--ocean, #404bbf);
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
     line-height: 24px; /* 150% */
     letter-spacing: 0.32px;
 }
+
 .adress-list {
     color: var(--slate, #434455);
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
-    line-height: 24px; /* 150% */
-    letter-spacing: 0.32px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+}
+address {
+    font-style: normal;
+    list-style: none;
 }
 
 /*-----------HERO-----------*/
@@ -123,11 +149,7 @@ body {
 }
 /*------------------OUR TEAM--------------*/
 .team-item {
-    border-radius: 0px 0px 4px 4px;
-    background: var(--white, #fff);
-    box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
-        0px 1px 1px 0px rgba(46, 47, 66, 0.16),
-        0px 1px 6px 0px rgba(46, 47, 66, 0.08);
+    background: var(--white #fff);
 }
 
 .our-team-title {
@@ -177,15 +199,7 @@ body {
     line-height: 24px; /* 150% */
     letter-spacing: 0.64px;
 }
-.nav-item:hover {
-    color: var(--ocean, #404bbf);
-    font-family: Roboto;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 24px; /* 150% */
-    letter-spacing: 0.32px;
-}
+
 .adress-list:hover {
     color: var(--ocean, #404bbf);
     font-family: Roboto;
