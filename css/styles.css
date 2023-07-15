@@ -225,10 +225,10 @@ body {
     font-size: 20px;
     font-style: normal;
     font-weight: 500;
-    line-height: 1.2em;
-    letter-spacing: 0.4px;
+    line-height: 1.5em;
+    letter-spacing: 0.02em;
 }
-.service-ist-text {
+.service-text {
     color: var(--slate, #434455);
     font-family: Roboto;
     font-size: 16px;
