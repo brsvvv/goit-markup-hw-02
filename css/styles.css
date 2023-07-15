@@ -16,8 +16,6 @@ body {
     list-style-type: none;
 }
 
-/*-----------HEADER-----------*/
-
 .header-logo {
     color: var(--iris, #4d5ae5);
     font-family: Raleway, sans-serif;
@@ -87,7 +85,6 @@ address {
     list-style: none;
 }
 
-/*-----------HERO-----------*/
 .hero {
     background-color: #2e2f42;
 }
@@ -147,7 +144,7 @@ address {
     letter-spacing: 0.72px;
     text-transform: capitalize;
 }
-/*------------------OUR TEAM--------------*/
+
 .team-item {
     background: var(--white #fff);
 }
