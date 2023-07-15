@@ -228,3 +228,12 @@ body {
     line-height: 1.2em;
     letter-spacing: 0.4px;
 }
+.service-ist-text {
+    color: var(--slate, #434455);
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5em;
+    letter-spacing: 0.32px;
+}
