@@ -219,7 +219,7 @@ body {
 .service-ist-item {
     text-decoration: none;
 }
-.service-ist-title {
+.service-title {
     color: var(--navyblue, #2e2f42);
     font-family: Roboto;
     font-size: 20px;
